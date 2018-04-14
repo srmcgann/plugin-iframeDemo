@@ -1,4 +1,4 @@
-# KiwiIRC - Jitsi Meet Plugin
+# KiwiIRC - Iframe Plugin
 
 This plugin demonstrates how a plugin can use the iframe functionality of the new media viewer.
 
