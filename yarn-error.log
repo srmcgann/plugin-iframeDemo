@@ -1,5 +1,5 @@
 Arguments: 
-  /root/.nvm/versions/node/v9.3.0/bin/node /usr/share/yarn/bin/yarn.js build production
+  /root/.nvm/versions/node/v9.3.0/bin/node /usr/share/yarn/bin/yarn.js build
 
 PATH: 
   /root/anaconda2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin
@@ -7404,10 +7404,10 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 2
+  Exit code: 127
   Command: sh
-  Arguments: -c webpack production
-  Directory: /var/www/html/kiwiCurrent/kiwiirc/dist/static/plugins/plugin-iframedemo
+  Arguments: -c webpack
+  Directory: /var/www/html/kiwiCurrent/kiwiirc/static/plugins/plugin-iframeDemo
   Output:
   
       at ProcessTermError.MessageError (/usr/share/yarn/lib/cli.js:186:110)
