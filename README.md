@@ -16,7 +16,7 @@ Add the following to ./static/config.json
 
     "iframeDemo":{ "url": "https://lookie.ml/gallery/headlessgallery.php" },
     "plugins": [
-      {"name": "iframeDemoPlugin", "url": "/static/plugins/plugin-iframeDemo/dist/main.js"}
+      {"name": "iframeDemoPlugin", "url": "./static/plugins/plugin-iframeDemo/dist/main.js"}
     ]
   
   
