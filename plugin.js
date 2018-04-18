@@ -18,7 +18,7 @@ kiwi.plugin('iframeDemoPlugin', function(kiwi, log) {
   }
   
   function iframeize(){
-    kiwi.emit('mediaviewer.show', kiwi.state.setting('iframeDemo.url'), true);
+    kiwi.emit('mediaviewer.show', {iframe: true, url: kiwi.state.setting('iframeDemo.url')});
   }
   
   window.addEventListener("click", function(e){
