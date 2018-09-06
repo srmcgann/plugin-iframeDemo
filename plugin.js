@@ -17,8 +17,15 @@ kiwi.plugin('iframeDemoPlugin', function(kiwi, log) {
     }
   }
   
+kiwi.emit('mediaviewer.show');
   function iframeize(){
     kiwi.emit('mediaviewer.show', {iframe: true, url: kiwi.state.setting('iframeDemo.url')});
+    setTimeout(() => {
+      let iframe = document.querySelector('.kiwi-mediaviewer iframe');
+      let mediaviewer = document.querySelector('.kiwi-mediaviewer');
+      iframe.style.width = '100%';
+      mediaviewer.style.height = '45%';
+    }, 20);
   }
   
   window.addEventListener("click", function(e){

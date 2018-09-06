@@ -11,6 +11,7 @@
 		"test": "xo"
 	},
 	"dependencies": {
+		"buffer": "^5.2.1",
 		"uppy": "^0.23.3"
 	},
 	"devDependencies": {
